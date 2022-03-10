@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@model Task1MVC.Models.Employee ;
+
+@Html.TextBoxFor(m=> m.empID) <br /><br />
+
+@Html.TextBoxFor(m=> m.empName) <br /><br />
+
+@Html.TextBoxFor(m=> m.empEmail) <br /><br />
